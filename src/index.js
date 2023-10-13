@@ -12,8 +12,7 @@ const rest = new REST({ version: 10, }).setToken(TOKEN);
 client.on("ready", () => {
     client.user.setActivity({
         name: "菜逼",
-        type: ActivityType.Playing,
-        url: ""
+        type: ActivityType.Custom,
     });
 });
 
